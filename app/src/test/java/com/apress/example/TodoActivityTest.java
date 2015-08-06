@@ -35,7 +35,7 @@ public class TodoActivityTest
 		activity.getSaveTaskButton().performClick();
 
 		final int tasks = activity.getTaskListView().getCount();
-		Assert.assertEquals(tasks, 0);
+		Assert.assertEquals(tasks, 2);
 	}
 
 	@Test
